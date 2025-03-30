@@ -1,0 +1,41 @@
+/* Existing Styles */
+.social-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+}
+
+/* Call Button Specific Styles */
+.call-button {
+  background-color: #34b7f1;
+  box-shadow: 0 5px 15px rgba(52, 183, 241, 0.4);
+}
+
+.call-button:hover {
+  background-color: #0288d1;
+  box-shadow: 0 10px 25px rgba(52, 183, 241, 0.6);
+  transform: scale(1.1);
+}
+
+/* Special Thanks Text */
+.special-thanks {
+  font-size: 14px;
+  color: var(--accent);
+  text-align: center;
+  margin-top: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: color 0.3s;
+}
+
+.special-thanks:hover {
+  color: var(--primary);
+}
